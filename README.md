@@ -1,0 +1,1 @@
+# frontendarchitectuurexamen2025deel2
