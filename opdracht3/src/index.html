@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>frontend architecture</title>
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+<div class="container my-4">
+    <div class="card shadow-sm border-warning">
+        <div class="card-header bg-warning">
+            TeamPing – Reacties op signalen
+        </div>
+        <div class="card-body">
+            <div class="row g-3 mb-3">
+                <div class="col-md-6">
+                    <input id="team_name" class="form-control" placeholder="Teamnaam">
+                </div>
+                <div class="col-md-6">
+                    <input id="team_value" type="number" class="form-control"
+                           placeholder="Aantal">
+                </div>
+            </div>
+            <button class="btn btn-warning w-100 mb-3" id="btn_send">
+                Verstuur signaal
+            </button>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <h6>Signaallog</h6>
+                    <ul id="log_list" class="list-group small"></ul>
+                </div>
+                <div class="col-md-6">
+                    <h6>Totaal per team</h6>
+                    <ul id="totals_list" class="list-group small"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
